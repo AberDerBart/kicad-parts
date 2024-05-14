@@ -1,0 +1,18 @@
+(footprint "BOURNS PTA6044 Panel" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (attr through_hole)
+  (fp_text reference "Ref**" (at -8.5 -1 90 unlocked) (layer "Dwgs.User") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4931844b-7f84-4e22-9cb8-1ca01d1f0caa)
+  )
+  (fp_text value "BOURNS PTA6044" (at 13.5 0.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 54a9d3f4-02d9-42a1-9b9e-583c3b118a8f)
+  )
+  (fp_rect (start -4.5 -37.5) (end 4.5 37.5) (layer "B.CrtYd") (width 0.05) (fill none) (tstamp 7bd4d602-20ba-450d-aaef-840131be3cac))
+  (fp_rect (start -5.5 -41) (end 5.5 41) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp b70c62fd-cf4e-4ed4-b7c5-be5d4c9fd97f))
+  (pad "" np_thru_hole circle (at 0 -35.5) (size 2 2) (drill 2) (layers F&B.Cu *.Mask) (tstamp 1d929acb-ba64-4db4-8c2f-962433e4bdc8))
+  (pad "" np_thru_hole oval (at 0 0) (size 2 67.5) (drill oval 2 67.5) (layers F&B.Cu *.Mask) (tstamp 259a1254-d950-4b9f-84a3-c95eaf8fc2c3))
+  (pad "" np_thru_hole circle (at 0 35.5 90) (size 2 2) (drill 2) (layers F&B.Cu *.Mask) (tstamp 7f64efef-9e32-4a04-91e5-420ea1720dee))
+)
